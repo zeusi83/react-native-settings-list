@@ -80,7 +80,6 @@ class SettingsList extends React.Component {
   }
 
   _groupView(group, index){
-    console.log(group.other);
     if(group.header){
       return (
         <View key={'group_' + index}>
